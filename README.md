@@ -1,5 +1,8 @@
 # Mutter Gebäudereinigung – Webseite
 
+**Live-Link:** https://mutterstefan-maker.github.io/mutter-gebaeudereinigung/
+**Repository:** https://github.com/mutterstefan-maker/mutter-gebaeudereinigung
+
 Statische, mobil optimierte Webseite (HTML, CSS, JavaScript – ohne Build-Schritt, ohne Abhängigkeiten).
 
 ## Struktur
