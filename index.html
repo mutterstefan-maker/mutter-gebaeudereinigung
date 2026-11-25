@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mutter Gebäudereinigung – Saubere Räume für Firmen &amp; Privat</title>
+  <meta name="description" content="Mutter Gebäudereinigung: Festverträge für Büros, Praxen und Treppenhäuser. Ein fester Ansprechpartner, zuverlässig und mobil erreichbar. Auch Privatkunden.">
+  <meta name="theme-color" content="#0fa3cc">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <svg viewBox="0 0 100 120" class="drop">
+    <path class="drop-outline" d="M50 4 C50 4 12 58 12 80 a38 38 0 0 0 76 0 C88 58 50 4 50 4Z"/>
+    <path class="drop-fill" d="M50 4 C50 4 12 58 12 80 a38 38 0 0 0 76 0 C88 58 50 4 50 4Z"/>
+  </svg>
+  <span class="preloader-text">Mutter Gebäudereinigung</span>
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#top" class="logo" aria-label="Mutter Gebäudereinigung Startseite">
+      <svg class="logo-mark" viewBox="0 0 40 48" aria-hidden="true">
+        <path d="M20 2 C20 2 4 24 4 33 a16 16 0 0 0 32 0 C36 24 20 2 20 2Z"/>
+        <path class="shine" d="M12 32 a8 8 0 0 0 5 7" />
+      </svg>
+      <span class="logo-text"><strong>Mutter</strong><small>Gebäudereinigung</small></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Hauptnavigation">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#festvertraege">Festverträge</a>
+      <a href="#privat">Privat</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#ueber">Ansprechpartner</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-wa btn-sm magnetic" href="https://wa.me/491713363915" target="_blank" rel="noopener">
+        <span>WhatsApp</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1" data-speed="0.15"></div>
+      <div class="blob blob-2" data-speed="-0.1"></div>
+      <div class="blob blob-3" data-speed="0.25"></div>
+      <canvas id="bubbles" class="bubbles"></canvas>
+    </div>
+
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">
+        <span class="pulse-dot"></span> Gebäudereinigung für Firmen &amp; Privat
+      </p>
+
+      <h1 class="hero-title">
+        <span class="line" data-split>Saubere Räume.</span>
+        <span class="line line-rise"><span class="grad-text">Verlässlich.</span></span>
+        <span class="line" data-split>Planbar.</span>
+      </h1>
+
+      <p class="hero-lead reveal" data-delay="200">
+        Feste Reinigungsverträge für Büros, Praxen und Treppenhäuser – und saubere Wohnungen für Privatkunden.
+        <strong>Bei uns sprechen Sie immer mit demselben Ansprechpartner.</strong>
+      </p>
+
+      <div class="hero-cta reveal" data-delay="350">
+        <a class="btn btn-primary shimmer magnetic" href="#kontakt"><span>Festvertrag anfragen</span><i class="arrow">→</i></a>
+        <a class="btn btn-wa magnetic" href="https://wa.me/491713363915" target="_blank" rel="noopener"><span>Per WhatsApp schreiben</span></a>
+      </div>
+
+      <ul class="hero-badges reveal" data-delay="450">
+        <li>Ein fester Ansprechpartner</li>
+        <li>Festverträge mit fixen Zeiten</li>
+        <li>Mobil erreichbar</li>
+      </ul>
+    </div>
+
+    <div class="wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path class="wave-1" d="M0,64 C240,120 480,0 720,48 C960,96 1200,24 1440,64 L1440,120 L0,120Z"/>
+        <path class="wave-2" d="M0,88 C300,40 540,120 820,80 C1080,40 1260,100 1440,72 L1440,120 L0,120Z"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <section class="marquee" aria-label="Leistungsbereiche">
+    <div class="marquee-track">
+      <span>Büroreinigung</span><i>✦</i><span>Praxisreinigung</span><i>✦</i><span>Treppenhäuser</span><i>✦</i><span>Fensterreinigung</span><i>✦</i><span>Unterhaltsreinigung</span><i>✦</i><span>Industriehallen</span><i>✦</i><span>Wohnungsreinigung</span><i>✦</i>
+      <span>Büroreinigung</span><i>✦</i><span>Praxisreinigung</span><i>✦</i><span>Treppenhäuser</span><i>✦</i><span>Fensterreinigung</span><i>✦</i><span>Unterhaltsreinigung</span><i>✦</i><span>Industriehallen</span><i>✦</i><span>Wohnungsreinigung</span><i>✦</i>
+    </div>
+  </section>
+
+  <!-- LEISTUNGEN (Firmen) -->
+  <section class="section" id="leistungen">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Für Firmen</p>
+        <h2>Reinigung, die <span class="grad-text">mitläuft</span></h2>
+        <p>Vom Büro bis zur Halle: Wir reinigen nach festem Plan, dokumentiert und mit klarer Ansprechperson.</p>
+      </header>
+
+      <div class="grid grid-3">
+        <article class="card tilt reveal reveal-zoom" data-delay="0">
+          <div class="icon">🏢</div>
+          <h3>Büroreinigung</h3>
+          <p>Arbeitsplätze, Küchen, Sanitär und Besprechungsräume – täglich, wöchentlich oder nach Bedarf.</p>
+        </article>
+        <article class="card tilt reveal reveal-zoom" data-delay="100">
+          <div class="icon">🩺</div>
+          <h3>Praxis- &amp; Medizinreinigung</h3>
+          <p>Hygienisch sauber mit geeigneten Mitteln und klaren Abläufen für Arztpraxen und Kliniken.</p>
+        </article>
+        <article class="card tilt reveal reveal-zoom" data-delay="200">
+          <div class="icon">🪜</div>
+          <h3>Treppenhaus &amp; Flure</h3>
+          <p>Regelmäßige Unterhaltsreinigung für Hausverwaltungen, Wohnanlagen und Gewerbeimmobilien.</p>
+        </article>
+        <article class="card tilt reveal reveal-zoom" data-delay="0">
+          <div class="icon">🪟</div>
+          <h3>Glas- &amp; Fensterreinigung</h3>
+          <p>Streifenfrei, auch in der Höhe. Regelmäßig im Vertrag oder als Einzelauftrag.</p>
+        </article>
+        <article class="card tilt reveal reveal-zoom" data-delay="100">
+          <div class="icon">🏭</div>
+          <h3>Industrie &amp; Hallen</h3>
+          <p>Produktionsflächen, Lager und Hallenböden – mit der passenden Technik und Erfahrung.</p>
+        </article>
+        <article class="card tilt reveal reveal-zoom" data-delay="200">
+          <div class="icon">🧽</div>
+          <h3>Unterhaltsreinigung</h3>
+          <p>Der Klassiker im Festvertrag: fester Rhythmus, feste Zeiten, feste Ansprechperson.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FESTVERTRÄGE -->
+  <section class="section section-dark" id="festvertraege">
+    <div class="blob blob-dark" aria-hidden="true"></div>
+    <div class="container split">
+      <div class="reveal reveal-left">
+        <p class="eyebrow eyebrow-light">Unser Schwerpunkt</p>
+        <h2>Festverträge statt Zufall</h2>
+        <p class="lead">Ihre Räume werden nach einem festen Plan gereinigt – immer gleich gut, ohne dass Sie sich kümmern müssen.</p>
+        <ul class="checklist">
+          <li><span class="check">✓</span> Feste Reinigungszeiten und klarer Leistungskatalog</li>
+          <li><span class="check">✓</span> Ein Ansprechpartner für alles – Sie müssen nicht bei jedem Einsatz neu erklären</li>
+          <li><span class="check">✓</span> Vertretung bei Urlaub und Krankheit wird organisiert</li>
+          <li><span class="check">✓</span> Transparente Abrechnung, keine versteckten Kosten</li>
+          <li><span class="check">✓</span> Kündigungsfristen und Vertragsdetails schriftlich geregelt</li>
+        </ul>
+        <a class="btn btn-primary shimmer magnetic" href="#kontakt"><span>Angebot für Firmen anfragen</span></a>
+      </div>
+
+      <!-- Before / After slider -->
+      <div class="ba reveal reveal-right" id="ba" aria-label="Vorher-Nachher Vergleich">
+        <div class="ba-layer ba-after"><span>Nachher</span></div>
+        <div class="ba-layer ba-before" id="baBefore"><span>Vorher</span></div>
+        <div class="ba-handle" id="baHandle"><i></i></div>
+        <input class="ba-range" id="baRange" type="range" min="0" max="100" value="50" aria-label="Vorher-Nachher Regler">
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVAT -->
+  <section class="section" id="privat">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Für Privatkunden</p>
+        <h2>Zuhause wohlfühlen</h2>
+        <p>Auch für Ihre Wohnung oder Ihr Haus sind wir da – unkompliziert und mit persönlicher Betreuung.</p>
+      </header>
+
+      <div class="tabs reveal" role="tablist" aria-label="Kategorie wählen">
+        <span class="tab-indicator" id="tabIndicator"></span>
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="privat-1">Regelmäßig</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="privat-2">Einmalig</button>
+      </div>
+
+      <div class="tab-panels">
+        <div class="grid grid-3 tab-panel is-active" id="privat-1" role="tabpanel">
+          <article class="card tilt"><div class="icon">🏠</div><h3>Wohnungsreinigung</h3><p>Wöchentlich oder 14-tägig – Ihre Wohnung ist immer in Ordnung.</p></article>
+          <article class="card tilt"><div class="icon">🛁</div><h3>Bad &amp; Küche</h3><p>Gründlich entkalkt und hygienisch – auch als Zusatzleistung.</p></article>
+          <article class="card tilt"><div class="icon">🌿</div><h3>Umweltfreundlich</h3><p>Wir arbeiten auf Wunsch mit schonenden Reinigungsmitteln.</p></article>
+        </div>
+        <div class="grid grid-3 tab-panel" id="privat-2" role="tabpanel" hidden>
+          <article class="card tilt"><div class="icon">🔑</div><h3>Endreinigung</h3><p>Für die Wohnungsübergabe – damit Ihre Kaution sicher ist.</p></article>
+          <article class="card tilt"><div class="icon">📦</div><h3>Umzugsreinigung</h3><p>Leere Wohnung, streifenfrei und bereit für die neuen Mieter oder Eigentümer.</p></article>
+          <article class="card tilt"><div class="icon">✨</div><h3>Grundreinigung</h3><p>Intensiv für Renovierungen, Neuanfänge oder einfach mal richtig durchputzen.</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABLAUF -->
+  <section class="section section-soft" id="ablauf">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">So einfach geht's</p>
+        <h2>In drei Schritten zur sauberen Lösung</h2>
+      </header>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline-line"><span id="timelineFill"></span></div>
+        <div class="step reveal" data-delay="0">
+          <div class="step-num">1</div>
+          <h3>Anfrage</h3>
+          <p>Schreiben Sie uns per WhatsApp oder Formular. Wir melden uns schnell zurück.</p>
+        </div>
+        <div class="step reveal" data-delay="150">
+          <div class="step-num">2</div>
+          <h3>Besichtigung &amp; Angebot</h3>
+          <p>Wir schauen uns Ihre Räume an und erstellen ein transparentes Angebot.</p>
+        </div>
+        <div class="step reveal" data-delay="300">
+          <div class="step-num">3</div>
+          <h3>Start &amp; Betreuung</h3>
+          <p>Ihr Reinigungsplan startet. Ihr Ansprechpartner bleibt Ihre feste Kontaktperson.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANSPRECHPARTNER -->
+  <section class="section" id="ueber">
+    <div class="container about">
+      <div class="avatar-wrap reveal reveal-left">
+        <div class="avatar" aria-hidden="true">
+          <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="56"/><text x="60" y="72" text-anchor="middle">M</text></svg>
+        </div>
+        <span class="orbit o1"></span><span class="orbit o2"></span>
+      </div>
+      <div class="reveal reveal-right">
+        <p class="eyebrow">Persönlich</p>
+        <h2>Sie sprechen immer mit mir</h2>
+        <p class="lead">Ich bin Ihr Ansprechpartner – vom ersten Gespräch bis zur laufenden Betreuung. Ich koordiniere mein Team aus geprüften Fachkräften, damit Sie nicht mit wechselnden Namen jonglieren müssen.</p>
+        <p>Probleme lösen wir direkt. Kurze Wege, schnelle Antworten – am liebsten per WhatsApp.</p>
+        <a class="btn btn-wa magnetic" href="https://wa.me/491713363915" target="_blank" rel="noopener"><span>Direkt schreiben: 0171 3363915</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-soft" id="faq">
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <p class="eyebrow">Häufige Fragen</p>
+        <h2>FAQ</h2>
+      </header>
+
+      <div class="accordion">
+        <details class="reveal" open>
+          <summary>Arbeiten Sie nur mit Festverträgen?</summary>
+          <div class="acc-body"><p>Festverträge sind unser Schwerpunkt. Einzelreinigungen und Privataufträge nehmen wir ebenfalls gern an.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Kann ich die Reinigungszeiten flexibel anpassen?</summary>
+          <div class="acc-body"><p>Ja. Zeiten und Leistungen werden gemeinsam festgelegt und können bei Bedarf schriftlich angepasst werden.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Was passiert bei Krankheit oder Urlaub?</summary>
+          <div class="acc-body"><p>Ihr Ansprechpartner organisiert eine Vertretung. Sie müssen sich nicht selbst darum kümmern.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Verwenden Sie eigene Reinigungsmittel?</summary>
+          <div class="acc-body"><p>Wir verwenden geeignete Reinigungsmittel. Auf Wunsch setzen wir auch umweltfreundliche Produkte ein.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Wie erreiche ich Sie am schnellsten?</summary>
+          <div class="acc-body"><p>Per WhatsApp unter 0171 3363915. Oder nutzen Sie das Kontaktformular unten.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section" id="kontakt">
+    <div class="container contact">
+      <div class="reveal reveal-left">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Lassen Sie uns <span class="grad-text">sprechen</span></h2>
+        <p class="lead">Unverbindlich anfragen – wir melden uns zeitnah.</p>
+
+        <a class="wa-card magnetic" href="https://wa.me/491713363915" target="_blank" rel="noopener">
+          <span class="wa-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.6-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3A3 3 0 0 0 7 11.3c0 1.2.9 2.4 1 2.6.1.2 1.7 2.6 4.2 3.6 2.1.8 2.5.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            </span>
+          <span class="wa-text"><strong>WhatsApp</strong><small>0171 3363915 – schnell &amp; direkt</small></span>
+          <i class="arrow">→</i>
+        </a>
+
+        <ul class="contact-info">
+          <li>📞 <a href="tel:+491713363915">0171 3363915</a></li>
+          <li>📍 Ihr Standort – Einsatz in Ihrer Region</li>
+          <li>🕐 Mo–Fr, 8–18 Uhr (Demo-Zeiten)</li>
+        </ul>
+      </div>
+
+      <form class="form reveal reveal-right" id="contactForm" data-endpoint="" novalidate>
+        <div class="form-row">
+          <label class="field">
+            <span>Name *</span>
+            <input name="name" type="text" required autocomplete="name" placeholder="Ihr Name">
+          </label>
+          <label class="field">
+            <span>Telefon</span>
+            <input name="phone" type="tel" autocomplete="tel" placeholder="Optional">
+          </label>
+        </div>
+        <label class="field">
+          <span>E-Mail *</span>
+          <input name="email" type="email" required autocomplete="email" placeholder="name@beispiel.de">
+        </label>
+        <div class="form-row">
+          <label class="field">
+            <span>Ich bin</span>
+            <select name="type">
+              <option value="Firma">Firma / Gewerbe</option>
+              <option value="Privat">Privatperson</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Art der Reinigung</span>
+            <select name="service">
+              <option>Festvertrag (Firma)</option>
+              <option>Büroreinigung</option>
+              <option>Treppenhaus / Flure</option>
+              <option>Fensterreinigung</option>
+              <option>Wohnungsreinigung</option>
+              <option>Endreinigung / Umzug</option>
+              <option>Sonstiges</option>
+            </select>
+          </label>
+        </div>
+        <label class="field">
+          <span>Nachricht</span>
+          <textarea name="message" rows="4" placeholder="Was soll gereinigt werden? Wie oft? Wo?"></textarea>
+        </label>
+        <label class="check-row">
+          <input type="checkbox" name="privacy" required>
+          <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Angaben zur Kontaktaufnahme zu. *</span>
+        </label>
+
+        <button class="btn btn-primary shimmer btn-block magnetic" type="submit"><span>Anfrage senden</span></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="#top" class="logo logo-light">
+        <svg class="logo-mark" viewBox="0 0 40 48" aria-hidden="true"><path d="M20 2 C20 2 4 24 4 33 a16 16 0 0 0 32 0 C36 24 20 2 20 2Z"/></svg>
+        <span class="logo-text"><strong>Mutter</strong><small>Gebäudereinigung</small></span>
+      </a>
+      <p class="muted">Saubere Räume für Firmen &amp; Privat.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Rechtliches">
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="agb.html">AGB</a>
+    </nav>
+    <p class="copy">© <span id="year">2026</span> Mutter Gebäudereinigung</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="fab-wa" href="https://wa.me/491713363915" target="_blank" rel="noopener" aria-label="WhatsApp schreiben">
+  <span class="fab-ping"></span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.6-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3A3 3 0 0 0 7 11.3c0 1.2.9 2.4 1 2.6.1.2 1.7 2.6 4.2 3.6 2.1.8 2.5.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
+
+<button class="to-top" id="toTop" aria-label="Nach oben">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

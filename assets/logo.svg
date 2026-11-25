@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" role="img" aria-label="Mutter Gebäudereinigung (Platzhalter-Logo)">
+  <!-- Platzhalter-Logo. Diese Datei durch das echte Logo ersetzen. -->
+  <path fill="#0fa3cc" d="M30 6 C30 6 8 36 8 52 a22 22 0 0 0 44 0 C52 36 30 6 30 6Z"/>
+  <text x="66" y="46" font-family="Outfit, Arial, sans-serif" font-weight="800" font-size="34" fill="#086680">Mutter</text>
+  <text x="67" y="70" font-family="Outfit, Arial, sans-serif" font-weight="600" font-size="13" letter-spacing="4" fill="#5a7480">GEBÄUDEREINIGUNG</text>
+</svg>
